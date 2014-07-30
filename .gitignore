@@ -1,0 +1,8 @@
+.~lock.*
+.idea
+npm-debug.log
+
+client/default/public/bower_components
+client/extend/public/bower_components
+server/node_modules
+node_modules

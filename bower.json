@@ -1,0 +1,80 @@
+{
+	"name": "ohmyrpg",
+	"version": "0.0.1",
+	"dependencies": {
+		"angular":                  "latest",
+		"angular-isotope":          "latest",
+		"angular-ui-router":        "latest",
+		"angular-bootstrap":        "latest",
+		"angularAMD":               "latest",
+		"backbone":                 "latest",
+		"bootstrap-css":            "latest",
+		"buzz":                     "latest",
+		"console-shim":             "latest",
+		"datatables":               "latest",
+		"dustjs-linkedin":          "latest",
+		"dustjs-linkedin-helpers":  "latest",
+		"extended-exceptions.js":   "latest",
+		"famous-angular":           "latest",
+		"generic_store.js":         "latest",
+		"html5shiv":                "latest",
+		"javascript-state-machine": "latest",
+		"jpanelmenu":               "latest",
+		"jquery":                   "latest",
+		"jquery.svg":               "latest",
+		"json2":                    "latest",
+		"jsoneditor":               "latest",
+		"isotope":                  "latest",
+		"lodash":                   "latest",
+		"magnific-popup":           "latest",
+		"modernizr":                "latest",
+		"momentjs":                 "latest",
+		"network-constants.js":     "latest",
+		"onepage-scroll":           "latest",
+		"pace":                     "latest",
+		"require-css":              "latest",
+		"requirejs":                "latest",
+		"requirejs-domready":       "latest",
+		"require-dust":             "latest",
+		"requirejs-i18n":           "latest",
+		"requirejs-plugins":        "latest",
+		"requirejs-text":           "latest",
+		"respond":                  "latest",
+		"screenfull":               "latest",
+		"socket.io":                "latest",
+		"spin.js":                  "latest",
+		"store.js":                 "latest",
+		"ui-router-extras":         "latest",
+		"underscore":               "latest",
+		"when":                     "latest"
+	},
+	"devDependencies": {
+		"chai":                     "latest",
+		"chai-as-promised":         "latest",
+		"chai-backbone":            "latest",
+		"mocha":                    "latest",
+		"mocha-as-promised":        "latest",
+		"sinon-chai":               "latest"
+	},
+	"commentedOutDeps": {
+		"alertify.js":              "latest",
+		"backbone-associations":    "latest",
+		"base-objects.js":          "latest",
+		"jqueryuibootstrap":        "latest",
+		"restlink.js":              "latest"
+	},
+	"not_in_bower": {
+		"fowl":                     "latest",
+		"chai-interface":           "latest",
+		"fullpage.js":              "latest",
+		"jquery.ui":                "latest",
+		"type-check":               "latest",
+		"koa":                      "latest"
+	},
+	"to_test": {
+		"zepto":                    "latest"
+	},
+	"resolutions": {
+		"angular":                  "^1.2.20"
+	}
+}

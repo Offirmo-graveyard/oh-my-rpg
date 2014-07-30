@@ -1,0 +1,19 @@
+<h4>Character creation step {{step}}</h4>
+<p>Customize me : <code>client/extend/public/screens/character_creation_step</code></p>
+<p>{{directions}}
+	<li ng-repeat="value in choices_offered">
+		<a ng-click="select(value)">Select '{{value.get('id')}}'</a>
+	</li>
+</p>
+<p ng-show="choice_description">{{choice_description}}</p>
+<div class="alert alert-danger alert-dismissable" ng-repeat="text in errors">
+	{{text}}
+</div>
+<div class="alert alert-warning alert-dismissable" ng-repeat="text in warnings">
+	{{text}}
+</div>
+<nav>
+	<a ui_sref="landing">Quit</a>
+<a ng-show="step != 1" ng-click="backToPreviousStep()">Back</a>
+<a ng-show="choices_made[step]" ng-click="attemptToGoToNextStep()">Next</a>
+</nav>

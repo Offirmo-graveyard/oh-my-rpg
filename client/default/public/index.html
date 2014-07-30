@@ -1,0 +1,76 @@
+<!doctype html>
+<!-- html_004 template -->
+<!-- js_005 template -->
+<html lang="en" xmlns:ng="http://angularjs.org"  ng-controller="AppCtrl">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><!-- http://stackoverflow.com/questions/14637943/what-is-x-ua-compatible-when-it-references-ie-edge-chrome-1 -->
+	<meta name="fragment" content="!" /><!-- http://code.google.com/web/ajaxcrawling/docs/specification.html -->
+
+	<title ng-bind="omr.title">Loading...</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- favicons -->
+
+	<!-- style -->
+	<link href="bower_components/pace/themes/pace-theme-flash.css" rel="stylesheet" />
+	<style>
+		/* Needed for AngularJS
+		 * http://docs.angularjs.org/api/ng.directive:ngCloak
+		 */
+		[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+			display: none !important;
+		}
+		/* Base style, minimal needed for loading screen.
+		 */
+		body {
+			/* We must take bootstrap into account.
+			 * Need !important to avoid flickering since bootstrap will reset CSS
+			 */
+			background: black !important;
+			color: white !important;
+			/* And here we load in advance a bit of bootstrap style
+			 * to avoid "loading" ugly style change
+			 */
+			margin: 0px;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			line-height: 1.42857143;
+			/* http://getbootstrap.com/components/#navbar-fixed-top */
+			/*padding-top: 70px;*/
+		}
+		#uiview {
+			/*border: 1px solid red;*/
+		}
+	</style>
+
+	<!-- js -->
+	<script src="bower_components/pace/pace.min.js"></script>
+	<script data-main="components.js" src="bower_components/requirejs/require.js"></script>
+	<script>
+		console.log("hello from header inline script !");
+		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+				':35730/livereload.js"></' + 'script>');
+	</script>
+</head>
+<body>
+
+<!-- ui-router magic -->
+<div id="uiview" ui-view>
+	Loading...
+</div>
+
+<noscript>Your browser either does not support JavaScript, or has it turned off.</noscript>
+<script>
+	console.log("hello from body inline script !");
+
+	window.main = function()
+	{
+		console.log("Starting main...");
+	};
+</script>
+
+</body>
+</html>
