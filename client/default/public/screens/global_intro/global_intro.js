@@ -18,11 +18,6 @@ define([
 		$stateProvider.state(mainState);
 	}]);
 
-	/*app.controller('GlobalIntroCtrl', [
-		'$scope',
-		'$state',
-		GlobalIntroCtrl
-	]);*/
 	function GlobalIntroCtrl($scope, $state) {
 		console.log('Hello from GlobalIntroCtrl !');
 

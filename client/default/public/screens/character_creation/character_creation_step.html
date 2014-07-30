@@ -1,4 +1,4 @@
-<h4>Character creation step {{step}}</h4>
+<h4>Character creation step {{cc.step}}</h4>
 <p>Customize me : <code>client/extend/public/screens/character_creation_step</code></p>
 <p>{{directions}}
 	<li ng-repeat="value in choices_offered">
@@ -14,6 +14,6 @@
 </div>
 <nav>
 	<a ui_sref="landing">Quit</a>
-<a ng-show="step != 1" ng-click="backToPreviousStep()">Back</a>
-<a ng-show="choices_made[step]" ng-click="attemptToGoToNextStep()">Next</a>
+<a ng-show="cc.step != 1" ng-click="backToPreviousStep()">Back</a>
+<a ng-show="cc.choices_made[cc.step]" ng-click="attemptToGoToNextStep()">Next</a>
 </nav>

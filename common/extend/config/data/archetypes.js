@@ -17,13 +17,19 @@ function(_) {
 			description: 'Humans from the Tau´ri (Earth) have only recently restored their stargate portal...',
 			char_creation: {
 				coming_soon: true, // not implemented yet ;)
+				forms: [ 'human' ],
+				// TODO add history, etc.
 			},
 		},
 		{
 			id: 'archetype:started_as_human_from_tauri_atlantis',
 			description: 'Humans from the Tau´ri (Earth) have only recently restored their stargate portal...',
 			char_creation: {
-				archetype_groups_to_resolve: [],
+				next_archetype_groups_to_resolve: [
+					'archetype_group:tauri_class',
+					'archetype_group:sex'
+				],
+				forms: [ 'human' ],
 			},
 		},
 		{
@@ -31,6 +37,7 @@ function(_) {
 			description: 'Humans from an ordinary planet of the Milky Way. Originated from earth inhabitants taken as slaves by the Goa´uld...',
 			char_creation: {
 				coming_soon: true, // not implemented yet ;)
+				forms: [ 'human' ],
 			},
 		},
 		{
@@ -38,6 +45,7 @@ function(_) {
 			description: 'Humans from an ordinary planet of the Pegasus galaxy. Originated from Ancient settlement program, they are now under threat from the Wraiths.',
 			char_creation: {
 				coming_soon: true, // not implemented yet ;)
+				forms: [ 'human' ],
 			},
 		},
 		{
@@ -45,22 +53,25 @@ function(_) {
 			description: 'Jaffa are humans from a warrior society created by the Goa´uld to serve as their warriors. Now free from the Goa´uld...',
 			char_creation: {
 				coming_soon: true, // not implemented yet ;)
+				forms: [ 'human' ],
 			},
 		},
 		{
-			id: 'archetype:started_as_goa´uld',
+			id: 'archetype:started_as_goauld',
 			description: 'Powerful parasitic life-from, once the dominant spcy of the Milky Way, the Goa´uld where driven out by a coalition led by the Tau´ri...',
 			char_creation: {
 				coming_soon: true, // not implemented yet ;)
 				prestige_required: true, // can only be chosen when the player has achieved a sufficient knowledge of the game
+				forms: [ 'goauld' ],
 			},
 		},
 		{
-			id: 'archetype:started_as_goa´uld_from_tok´ra',
+			id: 'archetype:started_as_goauld_from_tokra',
 			description: 'description TODO',
 			char_creation: {
 				coming_soon: true, // not implemented yet ;)
 				prestige_required: true, // can only be chosen when the player has achieved a sufficient knowledge of the game
+				forms: [ 'goauld' ],
 			},
 		},
 		{
@@ -68,6 +79,7 @@ function(_) {
 			description: 'description TODO',
 			char_creation: {
 				coming_soon: true, // not implemented yet ;)
+				forms: [ 'wraith' ],
 			},
 		},
 		{
@@ -76,6 +88,7 @@ function(_) {
 			char_creation: {
 				coming_soon: true, // not implemented yet ;)
 				prestige_required: true, // can only be chosen when the player has achieved a sufficient knowledge of the game
+				forms: [ 'ancient' ],
 			},
 		},
 		{
@@ -84,6 +97,7 @@ function(_) {
 			char_creation: {
 				coming_soon: true, // not implemented yet ;)
 				prestige_required: true, // can only be chosen when the player has achieved a sufficient knowledge of the game
+				forms: [ 'asgard' ],
 			},
 		},
 		{
@@ -91,6 +105,7 @@ function(_) {
 			description: 'description TODO',
 			char_creation: {
 				coming_soon: true, // not implemented yet ;)
+				forms: [ 'replicator' ],
 			},
 		},
 
@@ -104,5 +119,34 @@ function(_) {
 			id: 'archetype:female',
 			description: 'description TODO',
 		},
+
+		// forms
+		{
+			id: 'archetype:human_form',
+			description: 'description TODO',
+		},
+		{
+			id: 'archetype:ascended_from',
+			description: 'description TODO',
+		},
+
+		// tauri classes
+		{
+			id: 'archetype:tauri_soldier',
+			description: 'description TODO',
+		},
+		{
+			id: 'archetype:tauri_scientist',
+			description: 'description TODO',
+		},
+		{
+			id: 'archetype:tauri_diplomat',
+			description: 'description TODO',
+		},
+		{
+			id: 'archetype:tauri_medic',
+			description: 'description TODO',
+		},
+
 	];
 }); // requirejs module

@@ -21,8 +21,8 @@ function(_) {
 				'archetype:started_as_human_native_from_milky_way',
 				'archetype:started_as_human_native_from_pegasus_galaxy',
 				'archetype:started_as_jaffa',
-				'archetype:started_as_goa´uld',
-				'archetype:started_as_goa´uld_from_tok´ra',
+				'archetype:started_as_goauld',
+				'archetype:started_as_goauld_from_tokra',
 				'archetype:started_as_wraith',
 				'archetype:started_as_ancient',
 				'archetype:started_as_asgard',
@@ -36,6 +36,15 @@ function(_) {
 				'archetype:male',
 				'archetype:female'
 			]
-		}
+		},
+		{
+			id: 'archetype_group:tauri_class',
+			archetypes: [
+				'archetype:tauri_soldier',
+				'archetype:tauri_scientist',
+				'archetype:tauri_diplomat',
+				'archetype:tauri_medic'
+			]
+		},
 	];
 }); // requirejs module

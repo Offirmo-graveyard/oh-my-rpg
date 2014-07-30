@@ -5,9 +5,8 @@ define([
 	'when',
 	'common/utils/base_model',
 	'common/utils/sync_to_static_data_mixin',
-	'common/config/data/archetypes',
-	'common/models/archetype'
-], function(_, when, BaseModel, SyncFromStaticMixin, archetypeData, Archetype) {
+	'common/config/data/archetypes'
+], function(_, when, BaseModel, SyncFromStaticMixin, archetypeData) {
 
 	var Archetype = BaseModel.extend();
 	SyncFromStaticMixin.mixin(Archetype.prototype);

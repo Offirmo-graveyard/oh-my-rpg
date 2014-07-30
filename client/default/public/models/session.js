@@ -1,6 +1,6 @@
 /**
  * A user session.
- * Client-specific extension of the the common object.
+ * Client-specific extension of the common object.
  */
 'use strict';
 
@@ -10,11 +10,9 @@ define([
 	'models/user',
 	'base-objects/backbone/sync_to_store_mixin',
 	'generic_store/generic_store'
-], function(when, CommonSession, User) {
+], function(when, CommonModel, User) {
 
-	console.log('Hello from ClientSession');
-
-	var ClientSession = CommonSession.extend();
+	var ClientSession = CommonModel.extend();
 
 	// add our stuff
 	ClientSession.add_defaults(ClientSession.prototype, function() {

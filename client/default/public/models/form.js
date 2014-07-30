@@ -1,11 +1,11 @@
 /**
- * A user.
+ * A form.
  * Client-specific extension of the common object.
  */
 'use strict';
 
 define([
-	'common/models/user', // our parent
+	'common/models/form', // our parent
 	'base-objects/backbone/sync_to_store_mixin',
 	'generic_store/generic_store'
 ], function(CommonModel) {

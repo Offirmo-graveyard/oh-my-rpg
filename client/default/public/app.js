@@ -26,11 +26,11 @@ define([
 	}]);
 
 	app.config(['$urlRouterProvider', '$stateProvider', '$futureStateProvider', '$controllerProvider',
-	function($urlRouterProvider, $stateProvider, $futureStateProvider, $controllerProvider) {
+	function($urlRouterProvider, $stateProvider, $futureStateProvider, $state) {
 
 		// For any unmatched url, redirect to 404 TODO
 		//$urlRouterProvider.otherwise('/404');
-		//
+
 		// Now set up the states
 		$stateProvider
 		.state('landing', {
@@ -71,6 +71,18 @@ define([
 				'urlPrefix': '/character_selection',
 				'type': 'ngload',
 				'src': 'screens/character_selection/character_selection.js'
+			});
+			$futureStateProvider.futureState({
+				'stateName': 'login',
+				'urlPrefix': '/login',
+				'type': 'ngload',
+				'src': 'screens/login/login.js'
+			});
+			$futureStateProvider.futureState({
+				'stateName': 'character_intro',
+				'urlPrefix': '/character_intro',
+				'type': 'ngload',
+				'src': 'screens/character_intro/character_intro.js'
 			});
 		});
 	}]);

@@ -1,16 +1,14 @@
 /**
  * A group of archetypes.
- * Client-specific extension of the the common object.
+ * Client-specific extension of the common object.
  */
 'use strict';
 
 define([
 	'common/models/archetype_group' // our parent
-], function(CommonArchetypeGroup) {
+], function(CommonModel) {
 
-	console.log('Hello from ClientArchetypeGroup');
-
-	var ClientArchetypeGroup = CommonArchetypeGroup.extend();
+	var ClientArchetypeGroup = CommonModel.extend();
 
 	// add our stuff
 
