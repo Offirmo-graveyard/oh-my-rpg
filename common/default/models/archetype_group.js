@@ -1,5 +1,7 @@
 'use strict';
 
+TOREVIEW
+
 define([
 	'underscore',
 	'when',
@@ -7,19 +9,19 @@ define([
 	'common/utils/sync_to_static_data_mixin',
 	'common/config/data/archetype_groups',
 	'common/models/archetype'
-], function(_, when, BaseModel, SyncFromStaticMixin, archetypeGroupData, Archetype) {
+], function(_, when, BaseModel, SyncFromStaticMixin, static_data, Archetype) {
 
-	var ArchetypeGroup = BaseModel.extend();
-	SyncFromStaticMixin.mixin(ArchetypeGroup.prototype);
-	SyncFromStaticMixin.set_model_static_data(ArchetypeGroup.prototype, archetypeGroupData);
+	var DefinedModel = BaseModel.extend();
+	SyncFromStaticMixin.mixin(DefinedModel.prototype);
+	SyncFromStaticMixin.set_model_static_data(DefinedModel.prototype, static_data);
 
-	BaseModel.add_defaults(ArchetypeGroup.prototype, function() {
+	BaseModel.add_defaults(DefinedModel.prototype, function() {
 		return {
 			// TODO
 		};
 	});
 
-	ArchetypeGroup.prototype.fetch_custom_archetype_set = function(archetypes_id_list) {
+	DefinedModel.prototype.fetch_custom_archetype_set = function(archetypes_id_list) {
 		var res = _.map(archetypes_id_list, function createArchetype(id) {
 			return new Archetype({id: id});
 		});
@@ -32,7 +34,7 @@ define([
 		});
 	};
 
-	ArchetypeGroup.prototype.fetch_related_archetypes = function() {
+	DefinedModel.prototype.fetch_related_archetypes = function() {
 		if(!this._related_archetypes_loaded) {
 			this._related_archetypes_loaded = this.fetch_custom_archetype_set(this.get('archetypes'));
 		}
@@ -40,5 +42,5 @@ define([
 	};
 
 
-	return ArchetypeGroup;
+	return DefinedModel;
 });

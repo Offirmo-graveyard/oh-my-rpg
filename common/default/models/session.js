@@ -4,18 +4,21 @@
  */
 'use strict';
 
+TOREVIEW
+
 define([
 	'common/utils/base_model',
 ], function(BaseModel) {
 
-	var Session = BaseModel.extend();
+	var DefinedModel = BaseModel.extend();
 
-	BaseModel.add_defaults(Session.prototype, function() {
+	BaseModel.add_defaults(DefinedModel.prototype, function() {
 		return {
 			user_id: undefined, // obviously this session belongs to a user
 			key: undefined // API key for this session. May expires of course.
+			// TODO random seed ? Or in User ?
 		};
 	});
 
-	return Session;
+	return DefinedModel;
 });

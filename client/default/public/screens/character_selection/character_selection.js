@@ -5,7 +5,7 @@
 'use strict';
 
 define([
-	'text!screens/character_creation/character_selection.html',
+	'text!screens/character_selection/character_selection.html',
 	'angularAMD'
 ], function(template) {
 	var app = angular.module('App', ['ui.router']); // simplified angular : only one module

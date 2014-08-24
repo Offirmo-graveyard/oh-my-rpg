@@ -4,13 +4,14 @@ define([
 	'common/utils/base_model',
 ], function(BaseModel) {
 
-	var Party = BaseModel.extend();
+	var DefinedModel = BaseModel.extend();
 
-	BaseModel.add_defaults(Party.prototype, function() {
+	BaseModel.add_defaults(DefinedModel.prototype, function() {
 		return {
-			// TODO
+			pc: undefined, // main Player Character, the one listed in character selection
+			sub_pcs: [], // other Player Characters
 		};
 	});
 
-	return Party;
+	return DefinedModel;
 });

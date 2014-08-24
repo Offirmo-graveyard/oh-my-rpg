@@ -4,13 +4,13 @@ define([
 	'common/utils/base_model',
 ], function(BaseModel) {
 
-	var User = BaseModel.extend();
+	var DefinedModel = BaseModel.extend();
 
-	BaseModel.add_defaults(User.prototype, function() {
+	BaseModel.add_defaults(DefinedModel.prototype, function() {
 		return {
-			// TODO
+			//prestige: 0, // TODO one day prestige associated to knowledge of the game universe
 		};
 	});
 
-	return User;
+	return DefinedModel;
 });

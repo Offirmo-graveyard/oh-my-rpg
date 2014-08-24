@@ -10,14 +10,14 @@ define([
 	'generic_store/generic_store'
 ], function(CommonModel) {
 
-	var ClientParty = CommonModel.extend();
+	var ClientModel = CommonModel.extend();
 
 	// add our stuff
-	ClientParty.add_defaults(ClientParty.prototype, function() {
+	ClientModel.add_defaults(ClientModel.prototype, function() {
 		return {
 			//
 		};
 	});
 
-	return ClientParty;
+	return ClientModel;
 });

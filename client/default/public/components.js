@@ -41,12 +41,12 @@ requirejs.config({
 	paths: {
 		// AMD plugins (dirs or direct)
 		'base-objects'        : 'bower_components/base-objects.js', // dir
-		'extended-exceptions' : '../incubator/extended-exceptions.js/extended_exceptions', // direct
+		'extended-exceptions' : 'bower_components/extended-exceptions.js/extended_exceptions', // direct
 		'famous.angular'      : 'bower_components/famous-angular/dist/famous-angular',
 		'generic_store'       : 'bower_components/generic_store.js', // dir
 		'jquery'              : 'bower_components/jquery/dist/jquery',
-		'network-constants'   : '../incubator/network-constants.js', // dir
-		'restlink'            : 'other_components/restlink.js', // dir
+		//'network-constants'   : 'bower_components/network-constants.js', // dir
+		//'restlink'            : 'other_components/restlink.js', // dir
 
 		// grr
 		'lib'                 : 'bower_components/when/lib', // dir

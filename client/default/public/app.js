@@ -4,25 +4,23 @@ console.log('Hello from app.js !');
 
 define([
 	'angularAMD',
+	'models/context',
 	'angular-ui-router',
 	'angular-ui-router-extras',
 	'bootstrap3'
-], function (angularAMD) {
+], function (angularAMD, Context) {
 	console.log('starting app...');
 	var app = angular.module('App', ['ui.router', 'ct.ui.router.extras']);
 
 	app.controller('AppCtrl', ['$q', '$scope', function($q, $scope) {
 		$scope.scoped_angular = angular; // just in case
+		$scope.title = 'Oh My RPG'; // TODO load from config
+		$scope.game_name = 'Oh My RPG'; // TODO load from config
+
 		// our app data, shared with children controllers,
 		// in an object to ease sharing
-		$scope.omr = {
-			title: 'Oh My RPG', // TODO load from config
-			name: 'Oh My RPG', // TODO load from config
-			user: undefined, // current user
-			session: undefined, // current session
-			parties: [], // no parties at start
-			// TODO more
-		};
+		// TOREVIEW load too much things in landing screen ?
+		$scope.omr = Context.make_new();
 	}]);
 
 	app.config(['$urlRouterProvider', '$stateProvider', '$futureStateProvider', '$controllerProvider',
@@ -83,6 +81,12 @@ define([
 				'urlPrefix': '/character_intro',
 				'type': 'ngload',
 				'src': 'screens/character_intro/character_intro.js'
+			});
+			$futureStateProvider.futureState({
+				'stateName': 'game',
+				'urlPrefix': '/game',
+				'type': 'ngload',
+				'src': 'screens/game/game.js'
 			});
 		});
 	}]);

@@ -101,10 +101,10 @@
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="1">
             <y:GroupNode>
-              <y:Geometry height="1269.625732421875" width="606.0" x="614.0" y="452.62353515625"/>
+              <y:Geometry height="1379.4489486093084" width="1272.0330138445156" x="614.0" y="452.62353515625"/>
               <y:Fill color="#F2F0D8" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="606.0" x="0.0" y="0.0">SGA</y:NodeLabel>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="1272.0330138445156" x="0.0" y="0.0">SGA</y:NodeLabel>
               <y:Shape type="rectangle"/>
               <y:DropShadow color="#D2D2D2" offsetX="4" offsetY="4"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
@@ -129,7 +129,7 @@
         <node id="n3::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.start2">
-              <y:Geometry height="40.0" width="80.0" x="800.0" y="490.0"/>
+              <y:Geometry height="40.0" width="80.0" x="1003.357827476039" y="490.0"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="38.0" y="18.0">
@@ -149,7 +149,7 @@
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="60.37646484375" width="182.0" x="749.0" y="569.811767578125"/>
+                  <y:Geometry height="60.37646484375" width="182.0" x="952.357827476039" y="569.811767578125"/>
                   <y:Fill color="#F2F0D8" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="182.0" x="0.0" y="0.0">Landing</y:NodeLabel>
@@ -181,7 +181,7 @@
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="60.37646484375" width="182.0" x="749.0" y="689.811767578125"/>
+                  <y:Geometry height="60.37646484375" width="182.0" x="952.357827476039" y="689.811767578125"/>
                   <y:Fill color="#F2F0D8" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="182.0" x="0.0" y="0.0">Reading disclaimer</y:NodeLabel>
@@ -213,7 +213,7 @@
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="60.37646484375" width="182.0" x="1018.9999999999999" y="689.435302734375"/>
+                  <y:Geometry height="60.37646484375" width="182.0" x="1222.357827476039" y="689.435302734375"/>
                   <y:Fill color="#F2F0D8" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="182.0" x="0.0" y="0.0">Misc</y:NodeLabel>
@@ -245,7 +245,7 @@
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="60.37646484375" width="182.0" x="749.0" y="779.811767578125"/>
+                  <y:Geometry height="60.37646484375" width="182.0" x="952.357827476039" y="779.811767578125"/>
                   <y:Fill color="#F2F0D8" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="182.0" x="0.0" y="0.0">Watching intro </y:NodeLabel>
@@ -277,7 +277,7 @@
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="60.37646484375" width="182.0" x="929.0" y="1079.8117675781252"/>
+                  <y:Geometry height="60.37646484375" width="182.0" x="1132.357827476039" y="1079.8117675781252"/>
                   <y:Fill color="#F2F0D8" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="182.0" x="0.0" y="0.0">Loging in</y:NodeLabel>
@@ -309,7 +309,7 @@
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="60.37646484375" width="182.0" x="749.0" y="1365.3091051713093"/>
+                  <y:Geometry height="60.37646484375" width="182.0" x="952.357827476039" y="1365.3091051713093"/>
                   <y:Fill color="#F2F0D8" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="182.0" x="0.0" y="0.0">Choosing a character</y:NodeLabel>
@@ -341,7 +341,7 @@
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="60.37646484375" width="182.0" x="1169.0" y="1365.3091051713093"/>
+                  <y:Geometry height="60.37646484375" width="182.0" x="1372.357827476039" y="1365.3091051713093"/>
                   <y:Fill color="#F2F0D8" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="182.0" x="0.0" y="0.0">Watching char intro</y:NodeLabel>
@@ -373,7 +373,7 @@
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="323.4375" width="422.0" x="629.0" y="1489.6349837655584"/>
+                  <y:Geometry height="323.4375" width="422.0" x="832.357827476039" y="1489.6349837655584"/>
                   <y:Fill color="#F2F0D8" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="422.0" x="0.0" y="0.0">Playing</y:NodeLabel>
@@ -400,10 +400,9 @@
           <graph edgedefault="directed" id="n3::n8:"/>
         </node>
         <node id="n3::n9">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="90.97251779614011" width="165.17018104366332" x="757.4149094781683" y="870.188232421875"/>
+              <y:Geometry height="90.97251779614011" width="165.17018104366332" x="960.7727369542073" y="870.188232421875"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="67.369140625" x="48.90052020933172" y="28.785087023070105">session
@@ -423,7 +422,7 @@ recovered ?<y:LabelModel>
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="60.37646484375" width="182.0" x="1169.0" y="1274.9326403275593"/>
+                  <y:Geometry height="60.37646484375" width="182.0" x="1372.357827476039" y="1274.9326403275593"/>
                   <y:Fill color="#F2F0D8" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="182.0" x="0.0" y="0.0">Creating a character</y:NodeLabel>
@@ -450,10 +449,9 @@ recovered ?<y:LabelModel>
           <graph edgedefault="directed" id="n3::n10:"/>
         </node>
         <node id="n3::n11">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="90.97251779614011" width="165.17018104366332" x="757.4149094781684" y="991.1607502180152"/>
+              <y:Geometry height="90.97251779614011" width="165.17018104366332" x="960.7727369542074" y="991.1607502180152"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="83.3828125" x="40.8936842718316" y="36.13567296056999">still logged in ?<y:LabelModel>
@@ -468,14 +466,14 @@ recovered ?<y:LabelModel>
         </node>
         <node id="n3::n12">
           <data key="d4"/>
-          <data key="d5"/>
           <data key="d6">
             <y:UMLNoteNode>
-              <y:Geometry height="51.41980214118803" width="256.8924387646432" x="1410.7827476038337" y="1256.089042174959"/>
+              <y:Geometry height="51.41980214118803" width="256.8924387646432" x="1614.1405750798726" y="1256.089042174959"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="218.083984375" x="19.404227194821488" y="9.008729195594015">TODO : Reusable in-game if the player
-wants to create a custom party member.<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="218.083984375" x="19.404227194821488" y="1.6581432580940145">TODO : Reusable in-game if the player
+wants to create a custom party member.
+TORENAME select archetype(s)<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -486,10 +484,9 @@ wants to create a custom party member.<y:LabelModel>
           </data>
         </node>
         <node id="n3::n13">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="90.97251779614011" width="165.17018104366332" x="757.4149094781684" y="1197.3976601647632"/>
+              <y:Geometry height="90.97251779614011" width="165.17018104366332" x="960.7727369542074" y="1197.3976601647632"/>
               <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="64.041015625" x="50.5645827093316" y="28.78508702306999">has at last
@@ -505,10 +502,9 @@ one party ?<y:LabelModel>
         </node>
         <node id="n3::n14">
           <data key="d4"/>
-          <data key="d5"/>
           <data key="d6">
             <y:UMLNoteNode>
-              <y:Geometry height="51.41980214118803" width="256.8924387646432" x="1358.0457933972307" y="889.9645902493511"/>
+              <y:Geometry height="51.41980214118803" width="256.8924387646432" x="1561.4036208732696" y="889.9645902493511"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="212.751953125" x="22.070242819821488" y="9.008729195594015">no session ?
@@ -524,14 +520,32 @@ create a new user/session from scratch<y:LabelModel>
         </node>
         <node id="n3::n15">
           <data key="d4"/>
-          <data key="d5"/>
           <data key="d6">
             <y:UMLNoteNode>
-              <y:Geometry height="51.41980214118803" width="256.8924387646432" x="1410.7827476038337" y="1324.290098929406"/>
+              <y:Geometry height="51.41980214118803" width="256.8924387646432" x="1614.1405750798726" y="1324.290098929406"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" modelName="custom" textColor="#000000" visible="true" width="168.07421875" x="44.40911000732149" y="9.008729195594015">TODO : a non-intrusive banner
 offers to login if returning.<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+            </y:UMLNoteNode>
+          </data>
+        </node>
+        <node id="n3::n16">
+          <data key="d4"/>
+          <data key="d6">
+            <y:UMLNoteNode>
+              <y:Geometry height="51.41980214118803" width="256.8924387646432" x="629.0" y="1217.1740179922394"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" modelName="custom" textColor="#000000" visible="true" width="238.1171875" x="9.387625632321601" y="1.6581432580940145">TODESIGN
+Refresh should bring back directly to game !
+time to last activity ?<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -565,8 +579,8 @@ offers to login if returning.<y:LabelModel>
           <data key="d10">
             <y:PolyLineEdge>
               <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-                <y:Point x="840.0" y="660.0"/>
-                <y:Point x="1110.0" y="660.0"/>
+                <y:Point x="1043.357827476039" y="660.0"/>
+                <y:Point x="1313.357827476039" y="660.0"/>
               </y:Path>
               <y:LineStyle color="#000000" type="line" width="1.0"/>
               <y:Arrows source="none" target="standard"/>
@@ -584,7 +598,30 @@ offers to login if returning.<y:LabelModel>
             </y:PolyLineEdge>
           </data>
         </edge>
-        <edge id="n3::e4" source="n3::n6" target="n3::n8">
+        <edge id="n3::e4" source="n3::n4" target="n3::n9">
+          <data key="d10">
+            <y:PolyLineEdge>
+              <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+              <y:LineStyle color="#000000" type="line" width="1.0"/>
+              <y:Arrows source="none" target="standard"/>
+              <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+          </data>
+        </edge>
+        <edge id="n3::e5" source="n3::n5" target="n3::n13">
+          <data key="d10">
+            <y:PolyLineEdge>
+              <y:Path sx="0.0" sy="0.0" tx="1.3165921192756969" ty="-19.72204472843464">
+                <y:Point x="1223.357827476039" y="1170.0"/>
+                <y:Point x="1043.357827476039" y="1170.0"/>
+              </y:Path>
+              <y:LineStyle color="#000000" type="line" width="1.0"/>
+              <y:Arrows source="none" target="standard"/>
+              <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+          </data>
+        </edge>
+        <edge id="n3::e6" source="n3::n6" target="n3::n8">
           <data key="d10">
             <y:PolyLineEdge>
               <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-84.7381853097545"/>
@@ -594,12 +631,12 @@ offers to login if returning.<y:LabelModel>
             </y:PolyLineEdge>
           </data>
         </edge>
-        <edge id="n3::e5" source="n3::n7" target="n3::n8">
+        <edge id="n3::e7" source="n3::n7" target="n3::n8">
           <data key="d10">
             <y:PolyLineEdge>
               <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-161.71875">
-                <y:Point x="1260.0" y="1455.4973375931843"/>
-                <y:Point x="840.0" y="1455.4973375931843"/>
+                <y:Point x="1463.357827476039" y="1455.4973375931843"/>
+                <y:Point x="1043.357827476039" y="1455.4973375931843"/>
               </y:Path>
               <y:LineStyle color="#000000" type="line" width="1.0"/>
               <y:Arrows source="none" target="standard"/>
@@ -607,23 +644,11 @@ offers to login if returning.<y:LabelModel>
             </y:PolyLineEdge>
           </data>
         </edge>
-        <edge id="n3::e6" source="n3::n4" target="n3::n9">
-          <data key="d9"/>
-          <data key="d10">
-            <y:PolyLineEdge>
-              <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-              <y:LineStyle color="#000000" type="line" width="1.0"/>
-              <y:Arrows source="none" target="standard"/>
-              <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-          </data>
-        </edge>
-        <edge id="n3::e7" source="n3::n9" target="n3::n10">
-          <data key="d9"/>
+        <edge id="n3::e8" source="n3::n9" target="n3::n10">
           <data key="d10">
             <y:PolyLineEdge>
               <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-                <y:Point x="1260.0" y="915.6744913199451"/>
+                <y:Point x="1463.357827476039" y="915.6744913199451"/>
               </y:Path>
               <y:LineStyle color="#000000" type="line" width="1.0"/>
               <y:Arrows source="none" target="standard"/>
@@ -631,8 +656,7 @@ offers to login if returning.<y:LabelModel>
             </y:PolyLineEdge>
           </data>
         </edge>
-        <edge id="n3::e8" source="n3::n9" target="n3::n11">
-          <data key="d9"/>
+        <edge id="n3::e9" source="n3::n9" target="n3::n11">
           <data key="d10">
             <y:PolyLineEdge>
               <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -642,46 +666,7 @@ offers to login if returning.<y:LabelModel>
             </y:PolyLineEdge>
           </data>
         </edge>
-        <edge id="n3::e9" source="n3::n11" target="n3::n13">
-          <data key="d9"/>
-          <data key="d10">
-            <y:PolyLineEdge>
-              <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-45.48897885247038"/>
-              <y:LineStyle color="#000000" type="line" width="1.0"/>
-              <y:Arrows source="none" target="standard"/>
-              <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-          </data>
-        </edge>
-        <edge id="n3::e10" source="n3::n5" target="n3::n13">
-          <data key="d9"/>
-          <data key="d10">
-            <y:PolyLineEdge>
-              <y:Path sx="0.0" sy="0.0" tx="1.3165921192756969" ty="-19.72204472843464">
-                <y:Point x="1020.0" y="1170.0"/>
-                <y:Point x="840.0" y="1170.0"/>
-              </y:Path>
-              <y:LineStyle color="#000000" type="line" width="1.0"/>
-              <y:Arrows source="none" target="standard"/>
-              <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-          </data>
-        </edge>
-        <edge id="n3::e11" source="n3::n11" target="n3::n5">
-          <data key="d9"/>
-          <data key="d10">
-            <y:PolyLineEdge>
-              <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-                <y:Point x="1020.0" y="1036.6470091160852"/>
-              </y:Path>
-              <y:LineStyle color="#000000" type="line" width="1.0"/>
-              <y:Arrows source="none" target="standard"/>
-              <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-          </data>
-        </edge>
-        <edge id="n3::e12" source="n3::n10" target="n3::n7">
-          <data key="d9"/>
+        <edge id="n3::e10" source="n3::n10" target="n3::n7">
           <data key="d10">
             <y:PolyLineEdge>
               <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -691,8 +676,7 @@ offers to login if returning.<y:LabelModel>
             </y:PolyLineEdge>
           </data>
         </edge>
-        <edge id="n3::e13" source="n3::n10" target="n3::n12">
-          <data key="d9"/>
+        <edge id="n3::e11" source="n3::n10" target="n3::n12">
           <data key="d10">
             <y:PolyLineEdge>
               <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -702,8 +686,42 @@ offers to login if returning.<y:LabelModel>
             </y:PolyLineEdge>
           </data>
         </edge>
-        <edge id="n3::e14" source="n3::n13" target="n3::n6">
-          <data key="d9"/>
+        <edge id="n3::e12" source="n3::n10" target="n3::n5">
+          <data key="d10">
+            <y:PolyLineEdge>
+              <y:Path sx="-91.0" sy="0.0" tx="0.0" ty="0.0">
+                <y:Point x="1343.357827476039" y="1305.1208727494343"/>
+                <y:Point x="1343.357827476039" y="1110.0"/>
+              </y:Path>
+              <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+              <y:Arrows source="none" target="standard"/>
+              <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+          </data>
+        </edge>
+        <edge id="n3::e13" source="n3::n11" target="n3::n13">
+          <data key="d10">
+            <y:PolyLineEdge>
+              <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-45.48897885247038"/>
+              <y:LineStyle color="#000000" type="line" width="1.0"/>
+              <y:Arrows source="none" target="standard"/>
+              <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+          </data>
+        </edge>
+        <edge id="n3::e14" source="n3::n11" target="n3::n5">
+          <data key="d10">
+            <y:PolyLineEdge>
+              <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+                <y:Point x="1223.357827476039" y="1036.6470091160852"/>
+              </y:Path>
+              <y:LineStyle color="#000000" type="line" width="1.0"/>
+              <y:Arrows source="none" target="standard"/>
+              <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+          </data>
+        </edge>
+        <edge id="n3::e15" source="n3::n13" target="n3::n6">
           <data key="d10">
             <y:PolyLineEdge>
               <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -713,12 +731,11 @@ offers to login if returning.<y:LabelModel>
             </y:PolyLineEdge>
           </data>
         </edge>
-        <edge id="n3::e15" source="n3::n13" target="n3::n10">
-          <data key="d9"/>
+        <edge id="n3::e16" source="n3::n13" target="n3::n10">
           <data key="d10">
             <y:PolyLineEdge>
               <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-                <y:Point x="1260.0" y="1242.8839190628332"/>
+                <y:Point x="1463.357827476039" y="1242.8839190628332"/>
               </y:Path>
               <y:LineStyle color="#000000" type="line" width="1.0"/>
               <y:Arrows source="none" target="standard"/>
@@ -726,22 +743,7 @@ offers to login if returning.<y:LabelModel>
             </y:PolyLineEdge>
           </data>
         </edge>
-        <edge id="n3::e16" source="n3::n10" target="n3::n5">
-          <data key="d9"/>
-          <data key="d10">
-            <y:PolyLineEdge>
-              <y:Path sx="-91.0" sy="0.0" tx="0.0" ty="0.0">
-                <y:Point x="1140.0" y="1305.1208727494343"/>
-                <y:Point x="1140.0" y="1110.0"/>
-              </y:Path>
-              <y:LineStyle color="#000000" type="dashed" width="1.0"/>
-              <y:Arrows source="none" target="standard"/>
-              <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-          </data>
-        </edge>
         <edge id="n3::e17" source="n3::n14" target="n3::n9">
-          <data key="d9"/>
           <data key="d10">
             <y:PolyLineEdge>
               <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -752,7 +754,16 @@ offers to login if returning.<y:LabelModel>
           </data>
         </edge>
         <edge id="n3::e18" source="n3::n15" target="n3::n10">
-          <data key="d9"/>
+          <data key="d10">
+            <y:PolyLineEdge>
+              <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+              <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+              <y:Arrows source="none" target="none"/>
+              <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+          </data>
+        </edge>
+        <edge id="n3::e19" source="n3::n16" target="n3::n13">
           <data key="d10">
             <y:PolyLineEdge>
               <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -781,13 +792,13 @@ offers to login if returning.<y:LabelModel>
               <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
-              <y:Geometry height="50.0" width="50.0" x="708.6875" y="515.87646484375"/>
+              <y:Geometry height="50.0" width="50.0" x="101.50000000000006" y="450.0"/>
               <y:Fill color="#F2F0D8" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#B7B69E" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="50.0" x="0.0" y="0.0">3</y:NodeLabel>
               <y:Shape type="rectangle"/>
               <y:DropShadow color="#D2D2D2" offsetX="4" offsetY="4"/>
-              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
               <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
             </y:GroupNode>
@@ -841,7 +852,10 @@ offers to login if returning.<y:LabelModel>
       <data key="d8"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="317.5" y="411.75"/>
+            <y:Point x="317.5" y="578.188232421875"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="false"/>

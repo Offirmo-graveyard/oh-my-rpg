@@ -1,7 +1,7 @@
 /** An instance of a form for a character.
  * Example : human form of King Arthur,
  * which has archetypes : male, fighter, etc.
- * REM : the from itself is an archetype.
+ * REM : the form itself is an archetype. (TOREVIEW)
  */
 'use strict';
 
@@ -11,9 +11,9 @@ define([
 	'common/utils/base_model'
 ], function(_, when, BaseModel) {
 
-	var Form = BaseModel.extend();
+	var DefinedModel = BaseModel.extend();
 
-	BaseModel.add_defaults(Form.prototype, function() {
+	BaseModel.add_defaults(DefinedModel.prototype, function() {
 		return {
 			character: undefined, // the character this form belongs to
 			archetype: undefined, // the archetype corresponding to this form
@@ -21,5 +21,5 @@ define([
 		};
 	});
 
-	return Form;
+	return DefinedModel;
 });

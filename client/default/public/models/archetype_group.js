@@ -8,9 +8,9 @@ define([
 	'common/models/archetype_group' // our parent
 ], function(CommonModel) {
 
-	var ClientArchetypeGroup = CommonModel.extend();
+	var ClientModel = CommonModel.extend();
 
 	// add our stuff
 
-	return ClientArchetypeGroup;
+	return ClientModel;
 });
